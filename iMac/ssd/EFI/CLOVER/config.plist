@@ -81,7 +81,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>-v darkwake=no nvda_drv=1 kext-dev-mode=1</string>
+		<string>arch=x86_64 darkwake=no nvda_drv=1</string>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultVolume</key>
@@ -95,12 +95,14 @@
 		<key>StrictHibernate</key>
 		<true/>
 		<key>Timeout</key>
-		<integer>2</integer>
+		<integer>10</integer>
 		<key>XMPDetection</key>
 		<false/>
 	</dict>
 	<key>CPU</key>
 	<dict>
+		<key>C4</key>
+		<true/>
 		<key>Type</key>
 		<string>0x0501</string>
 		<key>UseARTFrequency</key>
@@ -133,7 +135,7 @@
 			<string>Recovery</string>
 		</array>
 		<key>Language</key>
-		<string>zh_CN:0</string>
+		<string>en:0</string>
 		<key>Mouse</key>
 		<dict>
 			<key>DoubleClick</key>
@@ -154,12 +156,12 @@
 			<key>Linux</key>
 			<false/>
 			<key>Tool</key>
-			<true/>
+			<false/>
 		</dict>
 		<key>ScreenResolution</key>
 		<string>1920x1080</string>
 		<key>Theme</key>
-		<string>El Capitan</string>
+		<string>SimpleThemeDark</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
